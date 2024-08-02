@@ -1,0 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	/* background-color: black; */
+	/* background-color: hsla(31, 32%, 86%, 1); */
+	/* background: hsla(31, 32%, 86%, 1) url(../assets/images/image\ 23.png); */
+	/* background-blend-mode: color-burn; */
+	max-width: 1920px;
+	/* overflow: hidden; */
+}

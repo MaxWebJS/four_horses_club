@@ -1,0 +1,19 @@
+.header_footer {
+	display: flex;
+	img {
+		display: block;
+	}
+	img:nth-child(2) {
+		margin-inline-start: -25px;
+	}
+	p {
+		background: hsla(7, 91%, 58%, 1);
+	}
+	p span:nth-child(even) {
+		display: block;
+		width: 6px;
+		height: 6px;
+		background-color: white;
+		border-radius: 50%;
+	}
+}
