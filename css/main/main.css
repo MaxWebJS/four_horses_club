@@ -1,0 +1,22 @@
+.main_section_1 {
+	margin-inline: 72px;
+	display: grid;
+	grid-template-areas:
+		"top_left top-right"
+		"bottom_left bottom-right";
+	h2 {
+		font-family: Merriweather;
+		font-size: 36px;
+		font-weight: 400;
+		line-height: 48.6px;
+		text-align: left;
+		span {
+			font-family: Merriweather;
+			font-size: 36px;
+			font-weight: 700;
+			line-height: 48.6px;
+			text-align: left;
+			color: hsla(7, 91%, 58%, 1);
+		}
+	}
+}
