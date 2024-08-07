@@ -47,6 +47,7 @@
 	img {
 		grid-area: top_right;
 		max-width: 100%;
+		margin: auto;
 	}
 	.main_section_1__image {
 		width: 530px;
