@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	background-color: grey;
+}
+body {
+	max-width: 1920px;
+	margin: auto;
+	border: 10px solid hsl(220 50% 50% /1);
+	background-color: white;
+}
+img {
+	display: block;
+}
