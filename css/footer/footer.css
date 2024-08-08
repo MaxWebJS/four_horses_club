@@ -1,0 +1,12 @@
+footer {
+	height: 150px;
+	background: hsla(29, 32%, 87%, 1);
+	font-family: Golos Text;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19.2px;
+	text-align: left;
+	color: hsla(0, 0%, 19%, 1);
+	padding-inline: 72px;
+	padding-block-start: 40px;
+}
