@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 	<head>
 		<meta charset="UTF-8" />
 		<meta
@@ -44,11 +44,27 @@
 			rel="stylesheet"
 			href="./css/main/main.css"
 		/>
+		<link
+			rel="stylesheet"
+			href="./css/main/section_2.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="./css/main/section_3.css"
+		/>
+		<!-- <link
+			rel="stylesheet"
+			href="./css/main/section_3_2.css"
+		/> -->
+		<link
+			rel="stylesheet"
+			href="./css/footer/footer.css"
+		/>
 	</head>
 	<body>
-		<header>
+		<header class="header">
 			<div class="header_container">
-				<nav>
+				<nav class="nav">
 					<img
 						src="./assets/images/logo/Vector.svg"
 						alt="logo image"
@@ -140,11 +156,9 @@
 			>
 				<h2>
 					<span>
-						Чтобы поддержать Международный васюкинский турнир посетите лекцию
-						на тему: <span class="highlight">«Плодотворная дебютная идея»</span>
+						Чтобы поддержать Международный васюкинский турнир посетите лекцию
+						на тему: <span class="highlight">«Плодотворная дебютная идея»</span>
 					</span>
-					<!-- </h2>
-				<h2> -->
 					<span>
 						и Сеанс
 						<span class="highlight"
@@ -187,13 +201,164 @@
 						alt=""
 					/>
 				</div>
-			</section>
-			<section class="main_section_2">
-				<div id="test">
-					<div id="width"></div>
+				<div class="main_section_1__table">
+					<p>Место проведения:</p>
+					<p>Клуб «Картонажник»</p>
+					<p>Дата и время мероприятия:</p>
+					<p>22 июня 1927 г. в 18:00</p>
+					<p>Стоимость входных билетов:</p>
+					<p>20 коп.</p>
+					<p>Плата за игру:</p>
+					<p>50 коп.</p>
+					<p class="no_bottom_border">Взнос на телеграммы:</p>
+					<p class="no_bottom_border">
+						<span role="presentation">100 руб.</span
+						><span role="presentation">21 руб. 16 коп.</span>
+					</p>
+
+					<p class="no_bottom_border">
+						По всем вопросам обращаться в администрацию к К. Михельсону
+					</p>
 				</div>
 			</section>
-			<section class="main_section_3"></section>
+			<section class="main_section_2">
+				<h2><span>Этапы преображения</span> <span>Васюков</span></h2>
+				<p>
+					<span>Будущие источники</span>
+					<span>обогащения васюкинцев</span>
+				</p>
+				<ol>
+					<li>Строительство железнодорожной магистрали Москва-Васюки</li>
+					<li>
+						Открытие фешенебельной гостиницы «Проходная пешка» и других
+						небоскрёбов
+					</li>
+					<li style="grid-area: 1/3/3/4">
+						Поднятие сельского хозяйства в радиусе на тысячу километров:
+						производство овощей, фруктов, икры, шоколадных конфет
+					</li>
+					<li>Строительство дворца для турнира</li>
+					<li>Размещение гаражей для гостевого автотранспорта</li>
+					<li>
+						Постройка сверхмощной радиостанции для передачи всему миру
+						сенсационных результатов
+					</li>
+					<li style="grid-area: 3 / 2 / 4 / 3; width:120%; z-index:1">
+						Создание аэропорта «Большие Васюки» с регулярным отправлением
+						почтовых самолётов и дирижаблей во все концы света, включая
+						Лос-Анжелос и Мельбурн
+					</li>
+					<li style="grid-area: 3 / 3 / 4 / 4;" >
+						<span id="last_li_section_2" style="position: absolute;
+						right: 0;
+						bottom: 0;"></span>
+						<img
+							src="./assets/images/main/section_2/airplane.png"
+							alt="airplane image"
+							id="airplane"
+						/>
+					</li>
+				</ol>
+			</section>
+
+			<section class="main_section_3">
+				<header>
+					<h2>Участники турнира</h2>
+					</div> 
+					<nav>
+						<button
+							id="btn_left"
+							onclick="slideToLeft()"
+							disabled
+						>
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									id="chevron_left_path"
+									d="M17 4L5 12L17 20"
+									stroke="white"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+						<span id="span_slide_numbers">3/6</span>
+						<button
+							id="btn_right"
+							onclick="slideToRight()"
+						>
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M8 4L19 12L8 20"
+									stroke="white"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+								/>
+							</svg>
+						</button>
+					</nav>
+				</header>
+
+				<div class="main_section_3__cards">
+					<ul
+						class="main_section_3_123_items"
+						id="ul_slide"
+					>
+						<li style="--position: 1">
+							<span style="grid-row: 2/3">Хозе-Рауль Капабланка</span
+							><span style="grid-row: 3/4">Чемпион мира по шахматам</span>
+							<button>Подробнее</button>
+						</li>
+						<li style="--position: 2">
+							<span style="grid-row: 2/3">Эммануил Ласкер</span
+							><span style="grid-row: 3/4">Чемпион мира по шахматам</span>
+							<button>Подробнее</button>
+						</li>
+						<li style="--position: 3">
+							<span style="grid-row: 2/3">Александр Алехин</span
+							><span style="grid-row: 3/4">Чемпион мира по шахматам</span>
+							<button>Подробнее</button>
+						</li>
+						<li
+							style="--position: 4"
+							id="li_4"
+						>
+							<span style="grid-row: 2/3">Арон Нимцович</span>
+							<span style="grid-row: 3/4">Чемпион мира по шахматам</span>
+							<button>Подробнее</button>
+						</li>
+						<li
+							style="--position: 5"
+							id="li_5"
+						>
+							<span style="grid-row: 2/3">Рихард Рети</span>
+							<span style="grid-row: 3/4">Чемпион мира по шахматам</span>
+							<button>Подробнее</button>
+						</li>
+						<li
+							style="--position: 6"
+							id="li_6"
+						>
+							<span style="grid-row: 2/3">Остап Бендер</span>
+							<span style="grid-row: 3/4">Гроссмейстер</span>
+							<button>Подробнее</button>
+						</li>
+					</ul>
+				</div>
+			</section>
 		</main>
 		<div class="running_line">
 			<marquee
@@ -213,7 +378,27 @@
 				<p>Лед тронулся, господа присяжные заседатели!</p>
 			</marquee>
 		</div>
+		<div id="test">
+			<div id="width"></div>
+		</div>
+		<footer>
+			<p>
+				Все персонажи, события и цитаты являются вымышленными и не принадлежат
+				создателям сайта. С подробностями можно познакомиться в главе XXXIV
+				романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
+			</p>
+		</footer>
 	</body>
 
 	<script src="./js/main.js"></script>
+	<script src="./js/section_3_scripts/section_3.js"></script>
+	<script src="./js/section_2_scripts/section_2.js"></script>
+	<script>
+		const iframe = document.getElementById("myIframe");
+
+		iframe.onload = function () {
+			iframe.style.height =
+				iframe.contentWindow.document.body.scrollHeight + "px";
+		};
+	</script>
 </html>

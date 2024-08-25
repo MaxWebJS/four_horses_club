@@ -1,17 +1,30 @@
-* {
+*,
+*::before,
+*::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 :root {
 	background-color: grey;
+	/* max-width: fit-content; */
 }
 body {
+	/* width: 100vw; */
 	max-width: 1920px;
 	margin: auto;
-	border: 10px solid hsl(220 50% 50% /1);
+	/* border: 10px solid hsl(220 50% 50% /1); */
 	background-color: white;
+	overflow-x: hidden;
+	position: relative;
 }
 img {
 	display: block;
+}
+#test {
+	border: 2px solid orchid;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	font-size: 32px;
 }

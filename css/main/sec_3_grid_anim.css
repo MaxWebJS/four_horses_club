@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.body_grid {
+	border: 5px solid hsl(40 50% 50% / 1);
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 0fr 1fr;
+	overflow: hidden;
+	animation: a1 8s linear infinite;
+	/* transition: grid-template-rows 2s; */
+}
+@keyframes a1 {
+	0% {
+		grid-template-rows: 0fr 1fr;
+	}
+	50% {
+		grid-template-rows: 1fr 0fr;
+	}
+	100% {
+		grid-template-rows: 0fr 1fr;
+	}
+}
+.item {
+	background-color: bisque;
+	background: url(../../assets/images/main/section_3/Capablanca.png),
+		url(../../assets/images/main/section_3/Cooper\ Union\ Stamp\ Paper.jpg);
+	background-position-y: 100%, 50%;
+	background-repeat: repeat no-repeat;
+	background-size: auto, cover;
+	height: 400px;
+}

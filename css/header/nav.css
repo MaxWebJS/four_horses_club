@@ -1,4 +1,4 @@
-nav {
+.nav {
 	display: flex;
 	position: relative;
 	grid-area: nav;
