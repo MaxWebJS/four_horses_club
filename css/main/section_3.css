@@ -3,7 +3,7 @@
 	/* margin-inline: 52px; */
 	display: grid;
 	grid-template-columns: 100%;
-
+	gap: 2rem;
 	overflow: hidden;
 	margin-block-end: 17rem;
 	header {
