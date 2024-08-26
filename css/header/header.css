@@ -18,9 +18,9 @@
 		"nav images"
 		"content images";
 	grid-template-rows: 26px auto 1fr;
-	grid-auto-columns: max-content 1fr;
-	grid-auto-columns: 1fr 1.2fr;
-	grid-auto-columns: 44% 56%;
+	/* grid-auto-columns: max-content 1fr; */
+	/* grid-auto-columns: 1fr 1.2fr; */
+	grid-template-columns: 44% 56%;
 }
 .header_content__images {
 	position: relative;

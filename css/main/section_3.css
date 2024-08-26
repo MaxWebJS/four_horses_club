@@ -288,7 +288,7 @@ ul:hover li {
 }
 @keyframes li_6 {
 	from {
-		grid-area: right_2;
+		grid-area: right_3;
 		/* opacity: 1; */
 	}
 	50% {
@@ -296,7 +296,7 @@ ul:hover li {
 		grid-area: left_3;
 	}
 	to {
-		grid-area: right_2;
+		grid-area: right_3;
 		/* opacity: 1; */
 		/* grid-area: left_3; */
 	}

@@ -37,3 +37,7 @@ function slideToRight() {
 	li_6.classList.toggle("li_6_animate");
 	ul_slide.classList.toggle("ul_animate");
 }
+
+// CODE FOR BUTTONS AND SPAN ANIMATION
+const li_4_5_6 = document.querySelectorAll("#ul_slide li:nth-last-child(-n+3)");
+log(li_4_5_6);
