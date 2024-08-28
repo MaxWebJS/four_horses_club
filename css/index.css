@@ -5,6 +5,7 @@
 }
 :root {
 	/* --hsl */
+	--color_black_19: hsla(0, 0%, 19%, 1);
 }
 .global_container {
 	display: grid;
