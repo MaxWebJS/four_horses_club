@@ -1,0 +1,21 @@
+.header {
+	/* width: 100%; */
+	width: calc(100% + 9rem);
+	/* height: 700px; */
+	/* background-image: url(../../assets/images/header_images/collage_hero.webp); */
+	background-image: url(../../assets/images/header_images/city_chess.webp),
+		url(../../assets/images/header_images/sun.webp);
+	/* background-image: url(../../assets/images/header_images/city_chess.png); */
+	background-size: 100%, 100%;
+	background-position: bottom, bottom;
+	background-repeat: no-repeat;
+	margin-inline: -4.5rem;
+	/* margin: auto; */
+	aspect-ratio: 1920/700;
+}
+@media (width <= 375px) {
+	.header {
+		background-size: 277%, 220%;
+		background-position: 72% 100%, 80% 90%;
+	}
+}
